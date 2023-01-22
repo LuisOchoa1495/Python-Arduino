@@ -8,7 +8,6 @@ void loop() {
 //lectura 
   if(Serial.available()>0){
     char valor=Serial.read();
-    Serial.println(valor);
     if(valor=='e'){
       digitalWrite(led,HIGH);
     }
